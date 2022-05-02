@@ -7,7 +7,7 @@
       <?php
         if(have_posts() ) : while(have_posts()) : the_post()
       ?>
-        <div class="col-lg-2 d-flex align-items-stretch">
+        <div class="col-lg-4 d-flex align-items-stretch">
           <div class="card">
             <?php 
               if(has_post_thumbnail()) { 
@@ -18,9 +18,11 @@
             <?php
               }
             ?>
-            <div class="card-body">
-              <h5 class="card-header"><?php the_title(); ?></h5>
-              <p class="card-text"><?php the_excerpt(); ?></p>
+            <div class="d-flex flex-column justify-content-between card-body">
+              <div>
+                <h5 class="card-header"><?php the_title(); ?></h5>
+                <p class="card-text"><?php the_excerpt(); ?></p>
+              </div>
               <a href="<?php the_permalink(); ?>" class="btn btn-primary">Link da postagem</a>
             </div>
           </div>
@@ -30,7 +32,7 @@
           endif;
         ?>
     </div>
-  </div>
+</div>
 
 <?php
   get_footer();
