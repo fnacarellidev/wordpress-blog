@@ -5,8 +5,10 @@ Author: Fabio
 Version: 1.0
 
 */
+
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -16,15 +18,12 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   padding: 20px;
   border-bottom: solid 1px #ccc;
 }
 
 header ul {
-  display: flex;
+  display: flex;  /* Encontrar uma maneira de estilizar com BootStrap */ 
   justify-content: space-between;
   list-style: none;
   padding: 0;
@@ -51,13 +50,16 @@ h1 {
   max-width: 300px;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-around;
+.menu-text {
+  font-weight: 500;
 }
 
-footer {
-  display: flex;
+span.text-primary {
+  font-weight: bold;
+}
+
+img.img-margin {
+  margin-right: 10px;
 }
 
 footer img {
