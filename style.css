@@ -43,6 +43,7 @@ header ul li a {
 header ul li a:hover {
   border-bottom: solid 3px blue;
   padding-bottom: 5px;
+  color: black;
 }
 
 h1 {
