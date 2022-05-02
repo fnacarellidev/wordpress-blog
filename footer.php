@@ -13,7 +13,7 @@
         if($query -> have_posts() ) : while($query -> have_posts()) : $query -> the_post();
       ?>
       <a href="<?php echo get_post_custom_values( "link")[0]; ?>">
-        <img src="<?php the_post_thumbnail_url() ?>" alt="thumb image">
+        <img class="img-margin" src="<?php the_post_thumbnail_url() ?>" alt="thumb image">
       </a>
       <?php
         endwhile;
