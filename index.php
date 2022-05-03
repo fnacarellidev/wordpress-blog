@@ -10,11 +10,14 @@
         <div class="col-lg-4 d-flex align-items-stretch mb-3 mt-3">
           <div class="card">
             <?php 
-              if(has_post_thumbnail()) { 
+              if(has_post_thumbnail())
+              { 
             ?>
               <img src="<?php the_post_thumbnail_url(); ?>" class="card-img-top img-fluid" alt="..."> <!-- Caso tenha imagem disponivel na postagem, ela será exibida normalmente. -->
-            <?php } else { ?>
-                <img src="<?php bloginfo("template_directory") ?>/img/nerd.png" alt="imagem substituta"> <!-- Caso não tenha imagem, será mostrada uma imagem padrão -->
+            <?php
+              } else { 
+            ?>
+              <img src="<?php bloginfo("template_directory") ?>/img/nerd.png" alt="imagem substituta"> <!-- Caso não tenha imagem, será mostrada uma imagem padrão -->
             <?php
               }
             ?>
