@@ -4,7 +4,7 @@
 <div class="container">
   <div class="d-flex justify-content-between">
     <div class="d-flex flex-column justify-content-around">
-      <h1>Hi, I'am <span class="text-primary">Marlon</span> Web Designer</h1>
+      <h1 class="homeh1">Hi, I'am <span class="text-primary">Marlon</span> Web Designer</h1>
       <div>
         <a class="btn btn-primary px-4" href="#">Contact</a>
       </div>

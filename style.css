@@ -45,7 +45,7 @@ header ul li a:hover {
   color: black;
 }
 
-h1 {
+.homeh1 {
   font-size: 3em;
   max-width: 300px;
 }
