@@ -5,7 +5,9 @@
   <div class="d-flex justify-content-between">
     <div class="d-flex flex-column justify-content-around">
       <h1>Hi, I'am <span class="text-primary">Marlon</span> Web Designer</h1>
-      <a class="btn btn-primary" href="#">Contact</a>
+      <div>
+        <a class="btn btn-primary px-4" href="#">Contact</a>
+      </div>
     </div>
     <div class="text-decoration-none">
     <img src="<?php bloginfo("template_directory"); ?>/img/nerd.png" alt="portfolio image">

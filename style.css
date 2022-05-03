@@ -54,6 +54,10 @@ h1 {
   font-weight: 500;
 }
 
+.page-title {
+  font-weight: 500;
+}
+
 span.text-primary {
   font-weight: bold;
 }

@@ -13,7 +13,7 @@
 <body>
 
 <header class="d-flex justify-content-around align-items-center">
-    <div class="menu-text">
+    <div class="page-title">
       <?php
         bloginfo("title") 
       ?>
