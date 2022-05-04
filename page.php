@@ -5,7 +5,7 @@
 <h1 class="d-flex justify-content-center">
   <?php the_title(); ?>
 </h1>
-<div class="px-2"> <!-- pl não funcionou, apenas px -->
+<div class="ms-2 text-center"> <!-- pl não funcionou, apenas px -->
   <?php the_content(); ?>
 </div>
 

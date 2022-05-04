@@ -14,7 +14,7 @@
 
 <header class="d-flex justify-content-around align-items-center">
     <div class="page-title">
-        <a href="http://fabin2.local/" class="text-decoration-none pb-1 border-bottom border-primary border-3" style="color: black;"><?php bloginfo("title"); ?></a> 
+        <a href="<?php echo home_url("/"); ?>" class="text-decoration-none pb-1 border-bottom border-primary border-3" style="color: black;"><?php bloginfo("title"); ?></a> 
     </div>
     <div class="menu-text">
       <?php 
