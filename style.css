@@ -69,3 +69,7 @@ img.img-margin {
 footer img {
   width: 30px;
 }
+
+.the-content {
+  min-height: 75vh;
+}
